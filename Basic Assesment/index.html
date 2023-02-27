@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Stylesheets -->
+     <link rel="stylesheet" href="styles.css">
+    <!---->
+     <style>
+        #grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          grid-gap: 20px;
+        }
+        #grid > div {
+          font-size: 30px;
+          padding: .5em;
+          color: #F8CBA6;
+          background: #ECF9FF;
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">ShoeShop</a>
+        <ul class="menu">
+          <li><a class="Img" href=""><img src="Image/carts.png" alt="cart"></a></li>
+        </ul>
+    </header>
+
+    <hr>
+    <!-- ========== Carousel ========== -->
+    
+    <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="Image/bb1.png">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="Image/b2.png">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="Image/bb3.png">
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <hr>
+    <!--object-->
+
+    <div id="grid">
+        <div>
+            <img class="shoe" src="Image/shoe1.jpg">
+            <h5> Brown Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+        <div>
+            <img class="shoe" src="Image/shoe2.jpg">
+            <h5> Black Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+        <div>
+            <img class="shoe" src="Image/shoe 3.jpg">
+            <h5> Blue Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+        <div>
+            <img class="shoe" src="Image/shoe5.jpg">
+            <h5> Blue Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+        <div>
+            <img class="shoe" src="Image/shoe1.jpg">
+            <h5> Brown Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+        <div>
+            <img class="shoe" src="Image/shoe1.jpg">
+            <h5> Brown Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+        <div>
+            <img class="shoe" src="Image/shoe1.jpg">
+            <h5> Brown Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+        <div>
+            <img class="shoe" src="Image/shoe1.jpg">
+            <h5> Brown Shoe</h5>
+            <p>$99</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Add to Cart</button>
+        </div>
+      </div>
+</body>
+</html>
